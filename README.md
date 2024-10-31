@@ -13,6 +13,13 @@ Projekat koristi skup od **17,354 slika** sa licima 105 poznatih glumaca.
 
 **ResNet** se pokazao kao najbolji model, sa visokom preciznošću prepoznavanja, zahvaljujući rezidualnim blokovima koji omogućavaju efikasnije treniranje dubljih mreža. Testiranje je potvrdilo da model generalizuje dobro i nije preprilagođen (bez overfittinga).
 
+### Metrike performansi
+
+- **Accuracy**: 0.8940  
+- **Precision**: 0.8980  
+- **Recall**: 0.8940  
+- **F1 Score**: 0.8939 
+
 ## Zaključak
 
 Fine-tuning pre-treniranih modela poput ResNet-a omogućio je visoke performanse čak i sa manjim skupom podataka, čime je projekat pokazao robusnost i pouzdanost za realne primene.
